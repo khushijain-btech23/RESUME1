@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Resume</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <style>
+    body 
+        {
+            background-color: beige;
+            margin: 0;
+            padding: 0;
+        }
+
+       
+
+        nav a:hover 
+        {
+            background-color: #555;
+        }
+
+        section 
+        {
+            margin: 20px;
+        }
+
+        h1, h2 
+        {
+            color: #333;
+        }
+
+        table 
+        {
+            width: 100%;
+            border: 2px solid #333;
+            margin-top: 10px;
+        }
+
+        table, th, td 
+        {
+            border: 2px solid #852828;
+        }
+
+        th, td 
+        {
+            padding: 10px;
+            text-align: left;
+            vertical-align: top;
+        }
+
+        hr 
+        {
+            border: 1px solid #852828;
+            margin: 20px ;
+        }
+
+        
+        footer 
+        {
+            text-align: center;
+            padding: 10px;
+            background-color: #852828;
+            color: white;
+        }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Khushi Jain</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="#personal-information">Personal Information</a></li>
+        <li class="nav-item"><a class="nav-link" href="#summary">Summary</a></li>
+        <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+        <li class="nav-item"><a class="nav-link" href="#work-experience">Work Experience</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#references">References</a></li>
+      </ul>
+    </div>
+  </nav>
+
+    <div> 
+      <h1 style="text-align: center; color: beige; background-color: #a65353;">RESUME</h1>
+    </div>
+
+
+    <section id="personal-information" style="text-align: center;">
+      
+      <h2>Personal Information</h2>
+      
+      <p>Name: Khushi Jain</p>
+      <p>Email: khushij.btech23@rvu.edu.in</p>
+      <p>Phone: (123) 456-7890</p>
+  
+    </section>
+    <hr>
+
+    <section id="photo"   style="text-align: center;">
+      <h2>Photo</h2>
+        <img src="image.jpeg" width="200" height="250">
+    </section>
+    <hr>
+
+    <section id="summary" style="text-align: center;">
+      <h2>Summary</h2>
+        <p>Recent graduate with a degree in Web Design and a passion for creating visually appealing and user-friendly websites. Skilled in HTML, CSS, and JavaScript, with hands-on experience in project development. Proven ability to collaborate effectively in a team and a strong commitment to continuous learning and staying updated on industry trends. Seeking an opportunity to apply and enhance my skills in a dynamic web design environment.</p>
+    
+    </section>
+    <hr>
+
+    <section id="education" style="text-align: center;">
+      <h2>Education</h2>
+        <table>
+            <tr>
+                <td><h3>Degree</h3></td>
+                <td><h3>University</h3></td>
+                <td><h3>Batch of the year</h3></td>
+            </tr>
+            <tr>
+                <td>PUC</td>
+                <td>Christ Junior College</td>
+                <td>2021-2023</td>
+            </tr>
+            <tr>
+                <td>Bachelor of Science in Web Design and Development</td>
+                <td>RVU University</td>
+                <td>2023-2027</td>
+            </tr>
+            <tr>
+                <td>Masters of Science in Web Design and Development</td>
+                <td>RV college of engineering</td>
+                <td>2027-2029</td>
+            </tr>
+        </table>
+    </section>
+    <hr>
+
+    <section id="work-experience"  style="text-align: center;">
+      <h2>Work Experience</h2> 
+                <p>Internship at Google<br>
+                Worked as a full stack developer at Google</p>
+        
+    </section>
+    <hr>
+
+    <section id="skills"   style="text-align: center;">
+      <h2>Skills</h2>
+            <p>HTML5<br>
+            CSS<br>
+            JavaScript<br>
+            Python<br>
+            C Language</p>
+        
+   
+    </section>
+    <hr>
+
+    <section id="projects"   style="text-align: center;">
+      <h2>Projects</h2>
+        
+        <p>Project 1: Designing and implementing responsive and intuitive user interfaces using HTML, CSS, and JavaScript.<br>
+        Project 2: Conducting user experience (UX) testing and gathering feedback for continuous improvement.</p>
+       
+    </section>
+    <hr>
+
+    <section id="references"   style="text-align: center;">
+      <h2>References</h2>
+        
+        <p>Available upon request</p>
+    
+    </section>
+
+    <hr>
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2023 Khushi Jain. All Rights Reserved.</p>
+    </footer>
+  </div>
+
+  <!-- Bootstrap JavaScript and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.8/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <script>
+    document.querySelectorAll('.nav-link').forEach(link => {
+      link.addEventListener('click', () => {
+        document.querySelector('.navbar-collapse').classList.remove('show');
+      });
+    });
+  </script>
+  
+
+</body>
+</html>
+
